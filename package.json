@@ -1,0 +1,23 @@
+{
+  "name": "lively4-filesystem-dump",
+  "version": "0.1.0",
+  "description": "Utility to create offline dumps of static file systems for lively4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lively4"
+  ],
+  "bin": {
+    "lively4-filesystem-dump": "bin/lively4-filesystem-dump.js"
+  },
+  "author": "Jan Graichen <jgraichen@altimos.de>",
+  "license": "MIT",
+  "dependencies": {
+    "argv": "0.0.2",
+    "bluebird": "^3.3.0",
+    "mime": "^1.3.4",
+    "minimatch": "^3.0.0",
+    "q-io": "^1.13.2"
+  }
+}
